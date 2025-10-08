@@ -14,11 +14,9 @@ if 'exercise_status' not in st.session_state:
 # Custom CSS for success highlighting
 st.markdown("""
 <style>
-.success-box {
-    background-color: #d4edda;
-    border: 2px solid #28a745;
-    border-radius: 5px;
-    padding: 10px;
+.success-box textarea {
+    background-color: #d4edda !important;
+    border: 2px solid #28a745 !important;
 }
 </style>
 """, unsafe_allow_html=True)
